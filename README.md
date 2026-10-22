@@ -9,14 +9,20 @@
 
 ## 💻 시작 가이드 (Getting Started)
 - Google Cloud 인증
-'''gcloud auth login
+```bash
+gcloud auth login
 gcloud auth application-default login
-gcloud config set project ax-gemini-lab'''
+gcloud config set project ax-gemini-lab
+```
 
 - Google ADK 설치
-'''python -m venv .venv && source .venv/bin/activate
-pip install google-adk litellm'''
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install google-adk litellm
+```
 
 - ADK 검증
-'''adk web
-127.0.0.1:8000'''
+```bash
+adk web
+127.0.0.1:8000
+```
